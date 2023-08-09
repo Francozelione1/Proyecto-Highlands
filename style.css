@@ -137,10 +137,67 @@ a:hover{
     color: rgb(214, 214, 0);
 }
 
-.imagen_cursos{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 50%;
-    width: 70%;
+.queHacemos{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    gap: 5%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.contenedorImg{
+    display: flex;
+    max-width: 40%;
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgEstudiantes{
+    width: 100%;
+}
+
+.contenedor{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    max-width: 40%;
+}
+
+.cuadrado{
+    position: relative;
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    background-color: rgb(235, 224, 224);
+    border: 2px rgb(226, 218, 218) solid;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    
+}
+
+.simbolo{
+    position: relative;
+    color: green;
+    font-size: 50px;
+    font-weight: bold;
+    margin: 10px 10px;
+    font-family: 'Space Grotesk', sans-serif;;
+    
+}
+
+.info{
+    position: relative;
+    color: black;
+    font-size: 20px;
+    margin: 10px 10px;
+    opacity: 0.5;    
 }
