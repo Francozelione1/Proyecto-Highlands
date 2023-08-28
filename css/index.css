@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: roboto-regular;
 }
 
 html{
@@ -15,83 +16,113 @@ html{
 
 }
 
-.fotoHeader {
-    max-width: 70%;
-    height: 70%;
-    max-height: 40%;
-    margin-right: 0%;
-    margin-left: 30%;
-
+.header{
+    width: 100%;
+    display: flex;
+    background-size: cover;
+    border-bottom: #008c58;
+    position: fixed;
+    height: 11%;
+    justify-content: center;
+    align-items: flex-start;
+    z-index: 1;
 }
 
-.fondoFotoHeader{
+.contenedorLogo{
+    display: flex;
+    width: 10%;
+    height: 90%;
+    justify-content: center;
+    align-items: center;
     background-color: #008c58;
+    background-size: cover;
+    padding-top: 5px;
     
 }
 
-.header{
+.navbar{
+    height: 90%;
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    background-size: cover;
     background-color: #008c58;
+    padding-top: 5px;
 }
 
 .logo_navbar{
-    width: 7%;
-    height: auto;
-    margin-right: auto;
-}
-
-.cursos_footer{
-    display: flex;
-    flex-direction: column;
-}
-
-.examenes_footer{
-    display: flex;
-    flex-direction: column;
-}
-
-.contenido_footer{
-    display: flex;
-    justify-content: space-between;
-
-    padding: 5vh;
-}
-
-.logo_footer{
-    height: 50%;
-    width: 20%;
-    margin-top: 1vh;
-    margin-bottom: 1vh;
-}
-
-.info_footer{
-    display: flex;
-    flex-direction: column;
-    margin-right: -15%;
-}
-
-.redes_footer{
-    display: flex;
-    flex-direction: column;
+    width: 60%;
+    max-height: 85%;
     
 }
 
-footer{
-    
-    background-color:#008c58;
-    color: black;
-    margin-top: auto;
-}
-
-.telefono_footer{
-    margin-bottom: 0;
-}
-
-body{
-    display: flex;
-    flex-direction: column;
+.diapositivaInicio{
     width: 100%;
-    min-height: 100%;
+    background-color: #008c58;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
 }
+
+.contenedorFotoComputadora{
+    width: 50%;
+    display: flex;
+    height: 100%;
+}
+
+.fotoComputadora{
+    max-width: 100%;
+    max-height: 70%;
+}
+
+.diapositivaQueHacemos{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    padding: 5% 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tituloQueHacemos{
+    text-align: center;
+}
+
+.diapositivaLogros{
+    background-color: #008c58;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    gap: 5%;
+    padding: 5% 0;
+}
+
+.tituloLogros{
+    color: black;
+    font-family: roboto;
+}
+
+.contenedorImgEstudiantes{
+    display: flex;
+    max-width: 40%;
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgEstudiantes{
+    width: 100%;
+    
+}
+
+
+
 
 .seccionEslogan{
     position: relative;
@@ -102,31 +133,6 @@ body{
     justify-content: center;
 }
 
-.navbar{
-    position: fixed;
-    top: 0;
-    z-index: 1030;
-    display: flex;
-    gap: 40px;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 15%;
-    background-color:#008c58;
-    background-size: cover;
-    border-top: #008c58;
-    border-bottom: #008c58;
-}
-
-.secciones{
-    text-decoration: none;
-    list-style: none;
-    color: black;
-    font-weight: 600;
-    font-size: 20px;
-    padding-right: 1%;
-}
-
 .separadores{
     width: 5px;
     height: 100%;
@@ -135,7 +141,7 @@ body{
     margin: 0;
 }
 
-.escuela{
+.tituloTestimonio{
     font-size: 30px;
     color: black;
     position: relative;
@@ -145,36 +151,20 @@ body{
 }
 
 a{
+    list-style: none;
     color:black;
     text-decoration: none;
-    
+    font-family: roboto;
+    font-weight: 600;
+    font-size: 20px;
 }
 
 a:hover{
-    color: rgb(214, 214, 0);
+    color: rgb(136, 221, 178);
 }
 
-.queHacemos{
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    width: 100%;
-    gap: 5%;
-    margin-top: 3%;
-    margin-bottom: 3%;
-}
 
-.contenedorImg{
-    display: flex;
-    max-width: 40%;
-    width: 40%;
-    justify-content: center;
-    align-items: center;
-}
 
-.imgEstudiantes{
-    width: 100%;
-}
 
 .contenedor{
     position: relative;
@@ -192,12 +182,12 @@ a:hover{
     display: flex;
     width: 50%;
     flex-direction: column;
-    background-color: rgb(235, 224, 224);
-    border: 2px rgb(226, 218, 218) solid;
+    background-color: rgb(255, 255, 255);
     color: black;
     justify-content: center;
     align-items: center;
     border-radius: 100px;
+    box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.2);;
     
 }
 
@@ -285,3 +275,53 @@ a:hover{
     width: 100%;
     height: 90%;
 }
+
+
+.cursos_footer{
+    display: flex;
+    flex-direction: column;
+}
+
+.examenes_footer{
+    display: flex;
+    flex-direction: column;
+}
+
+.contenido_footer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 15%;
+    padding: 2% 0;
+}
+
+.logo_footer{
+    height: 50%;
+    width: 20%;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+.info_footer{
+    display: flex;
+    flex-direction: column;
+    margin-right: -15%;
+}
+
+.redes_footer{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+footer{
+    
+    background-color:#008c58;
+    color: black;
+    margin-top: auto;
+}
+
+.telefono_footer{
+    margin-bottom: 0;
+}
+
