@@ -308,49 +308,50 @@ a:hover{
     height: 90%;
 }
 
-
-.cursos_footer{
-    display: flex;
-    flex-direction: column;
-}
-
-.examenes_footer{
-    display: flex;
-    flex-direction: column;
+footer{
+    background-color:#008c58;
+    color: black;
 }
 
 .contenido_footer{
     display: flex;
+    background-color:#008c58;
+    background-size: cover;
     justify-content: center;
+    align-items: flex-start;
     width: 100%;
-    gap: 15%;
+    gap: 8%;
     padding: 2% 0;
 }
 
-.logo_footer{
-    height: 50%;
-    width: 20%;
-    margin-top: 1vh;
-    margin-bottom: 1vh;
-}
-
-.info_footer{
+.seccionFooter{
+    width: 10%;
     display: flex;
     flex-direction: column;
-    margin-right: -15%;
+    justify-content: center;
+    align-items: justify;
+}
+
+.titulosFooter{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.logo_footer{
+    height: 25%;
+    width: 50%;
+    margin: 10px 0;
+}
+
+.linksFooter{
+    color: black;
+    font-weight: 400;
+    font-size: 15px;
 }
 
 .redes_footer{
     display: flex;
     flex-direction: column;
-    
-}
-
-footer{
-    
-    background-color:#008c58;
-    color: black;
-    margin-top: auto;
 }
 
 .telefono_footer{
