@@ -9,6 +9,24 @@
     integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
   <link rel="stylesheet" href="css/index.css">
   <link href="https://cdn.jsdelivr.net/npm/roboto-font@0.1.0/css/fonts.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+  <style>
+    body {
+            animation: fadeInAnimation ease 2s;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+        }
+        @keyframes fadeInAnimation {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+  </style>
 </head>
 
 <body>
@@ -51,12 +69,21 @@
   <main>
 
     <section class="diapositivaInicio">
+      <div class="contenedorTextoPrincipal">
+        <h4 class="tituloHighlands">Highlands</h4>
+        <p class="tituloHighlandsTexto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta quaerat placeat ex veniam tenetur suscipit ipsa, porro, aspernatur obcaecati non reiciendis repellat doloremque maiores modi! Delectus maiores dolor voluptate consequuntur?</p>
+        <ul class="listadoDiapositivaInicio">
+          <li class="listadoDiapositivaInicioItem">Lorem</li>
+          <li class="listadoDiapositivaInicioItem">Lorem</li>
+          <li class="listadoDiapositivaInicioItem">Lorem</li>
+          <li class="listadoDiapositivaInicioItem">Lorem</li>
+        </ul>
+        <div class="contenedorBotonContactanosPrincipal">
+          <a href="" class="botonContactanosPrincipal">Contactanos</a>
+        </div>
+      </div>
       <div class="contenedorFotoComputadora">
         <img class="fotoComputadora" src="imagenes/Untitled design.jpg" alt="">
-        <div class="textoFotoComputadora">
-          <h4>Lorem</h4>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta quaerat placeat ex veniam tenetur suscipit ipsa, porro, aspernatur obcaecati non reiciendis repellat doloremque maiores modi! Delectus maiores dolor voluptate consequuntur?</p>
-        </div>
       </div>
     </section>
 
@@ -201,10 +228,10 @@
     </section>
   </footer>
 
-
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-    crossorigin="anonymous"></script>
+    crossorigin="anonymous">
+  </script>
 </body>
 
 </html>

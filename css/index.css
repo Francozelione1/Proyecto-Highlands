@@ -7,6 +7,7 @@
 
 html{
     height: 100%;
+    scroll-behavior: smooth;
 }
 
 .contacto_footer{
@@ -36,7 +37,6 @@ html{
     background-color: #008c58;
     background-size: cover;
     padding-top: 5px;
-    
 }
 
 .navbar{
@@ -65,19 +65,84 @@ html{
     display: flex;
     justify-content: flex-end;
     padding-right: 50px;
+    align-items: center;
+    padding-top: 7%;
+    padding-bottom: 2%;
+    gap: 5%;
+}
+
+.contenedorTextoPrincipal{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    position: relative;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 5%;
+    gap: 20px;
+}
+
+.tituloHighlands{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    font-size: 100px;
+    color: aliceblue;
+}
+
+.tituloHighlandsTexto{
+    color: aliceblue;
+    font-size: 15px;
+    width: 100%;
+}
+
+.listadoDiapositivaInicio{
+    color: aliceblue;
+}
+
+.listadoDiapositivaInicioItem{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 15px;
+}
+
+.contenedorBotonContactanosPrincipal{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3%;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.contenedorBotonContactanosPrincipal:hover{
+    background-color: aquamarine;
+    color: black;
+}
+
+.botonContactanosPrincipal{
+    width: 100%;
+    color: black;
+    font-size: 15px;
+    font-weight: 800;
+    text-transform: none;
+}
+
+.botonContactanosPrincipal:hover{
+    color: black;
 }
 
 .contenedorFotoComputadora{
-    width: 50%;
+    width: 40%;
     display: flex;
     height: 100%;
     position: relative;
+    margin-right: 5%;
 }
 
-.textoFotoComputadora{
-    position: absolute;
 
-}
 
 .fotoComputadora{
     max-width: 100%;
@@ -190,7 +255,7 @@ html{
 
 a{
     list-style: none;
-    color:black;
+    color: black;
     text-decoration: none;
     font-family: roboto;
     font-weight: 600;
@@ -200,8 +265,6 @@ a{
 a:hover{
     color: rgb(136, 221, 178);
 }
-
-
 
 
 .contenedor{
