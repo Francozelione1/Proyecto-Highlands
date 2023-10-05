@@ -64,35 +64,33 @@ html{
     background-size: cover;
     display: flex;
     justify-content: flex-end;
-    padding-right: 50px;
+    padding-right: 5%;
     align-items: center;
-    padding-top: 7%;
+    padding-top: 6%;
     padding-bottom: 2%;
-    gap: 5%;
+    padding-left: 5%;
 }
 
 .contenedorTextoPrincipal{
-    width: 40%;
+    width: 35%;
     display: flex;
     flex-direction: column;
-    height: 100%;
     position: relative;
     justify-content: center;
     align-items: flex-start;
-    margin-left: 5%;
     gap: 20px;
 }
 
 .tituloHighlands{
     font-family: 'Dancing Script', cursive;
     font-weight: 700;
-    font-size: 100px;
+    font-size: 110px;
     color: aliceblue;
 }
 
 .tituloHighlandsTexto{
     color: aliceblue;
-    font-size: 15px;
+    font-size: 18px;
     width: 100%;
 }
 
@@ -103,7 +101,7 @@ html{
 .listadoDiapositivaInicioItem{
     text-decoration: none;
     color: aliceblue;
-    font-size: 15px;
+    font-size: 17px;
 }
 
 .contenedorBotonContactanosPrincipal{
@@ -125,7 +123,7 @@ html{
 .botonContactanosPrincipal{
     width: 100%;
     color: black;
-    font-size: 15px;
+    font-size: 17px;
     font-weight: 800;
     text-transform: none;
 }
@@ -135,18 +133,18 @@ html{
 }
 
 .contenedorFotoComputadora{
-    width: 40%;
+    width: 65%;
     display: flex;
-    height: 100%;
+    height: 500px;
+    align-items: flex-end;
+    justify-content: flex-end;
     position: relative;
-    margin-right: 5%;
+    overflow: hidden;
 }
-
-
 
 .fotoComputadora{
     max-width: 100%;
-    max-height: 70%;
+    height: 80%;
 }
 
 .diapositivaQueHacemos{
@@ -204,7 +202,6 @@ html{
     align-items: center;
     display: flex;
     width: 100%;
-    gap: 5%;
     padding: 5% 0;
 }
 
@@ -215,17 +212,15 @@ html{
 
 .contenedorImgEstudiantes{
     display: flex;
-    max-width: 40%;
-    width: 40%;
+    max-width: 45%;
+    width: 45%;
     justify-content: center;
     align-items: center;
 }
 
 .imgEstudiantes{
     width: 100%;
-    
 }
-
 
 .seccionEslogan{
     position: relative;
@@ -267,15 +262,15 @@ a:hover{
 }
 
 
-.contenedor{
+.contenedorLogros{
     position: relative;
     display: flex;
     flex-direction: column;
     gap: 20px;
     justify-content: center;
     align-items: center;
-    width: 40%;
-    max-width: 40%;
+    width: 45%;
+    max-width: 45%;
 }
 
 .cuadrado{
