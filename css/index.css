@@ -5,16 +5,10 @@
     font-family: roboto-regular;
 }
 
-html{
-    height: 100%;
-    scroll-behavior: smooth;
-}
-
 .contacto_footer{
     display: flex;
     flex-direction: column;
     text-align: right;
-
 }
 
 .header{
@@ -27,6 +21,7 @@ html{
     justify-content: center;
     align-items: flex-start;
     z-index: 1;
+    top: 0;
 }
 
 .contenedorLogo{
@@ -41,6 +36,7 @@ html{
 
 .navbar{
     height: 90%;
+    padding: 10px 0;
     display: flex;
     gap: 80px;
     justify-content: center;

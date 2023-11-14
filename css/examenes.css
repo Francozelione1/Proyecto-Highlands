@@ -1,0 +1,283 @@
+p{
+    font-family: roboto-regular;
+}
+
+
+
+html {
+    scroll-behavior: smooth; /* Ajusta según tus necesidades */
+}
+
+img{
+    max-width: 100%;
+    height: 100%;
+    font-family: roboto-regular ;
+}
+
+
+main{
+    margin-top: 11%;
+}
+
+a{
+    font-family: roboto;
+}
+
+.contenedorTablas{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.tituloExamenes{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.contenedorImgExamenes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    border-radius: 10px;
+}
+.contenedoresImgExamenes{
+    box-shadow: 5px 5px 20px 0px black;
+    background-color: #f7efea;
+    border-radius: 10px;
+    width: 40%;
+    max-width: 40%;
+    padding: 20px;
+    height: 100%;
+}
+.imgExamenes{
+    height: 100%;
+    border-radius: 10px;
+}
+
+.whatsapp_float {
+      position: fixed;
+      width: 60px;
+      height: 60px;
+      bottom: 40px;
+      right: 40px;
+      background-color: #25d366;
+      color: #fff;
+      border-radius: 50px;
+      text-align: center;
+      font-size: 30px;
+      box-shadow: 2px 2px 3px #999;
+      z-index: 100;
+    }
+    .whatsapp-icon {
+      margin-top: 16px;
+    }
+
+    /* for mobile */
+    @media screen and (max-width: 767px){
+      .whatsapp-icon {
+        margin-top: 10px;
+      }
+      .whatsapp_float {
+        width: 40px;
+        height: 40px;
+        bottom: 20px;
+        right: 10px;
+        font-size: 22px;
+      }
+    }
+
+main{
+    margin-bottom: 150px;
+}
+
+
+.seccionExamenes{
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(4, 0.5fr);
+    column-gap: 20px;
+    background-color: #008c58;
+    padding: 5% 10%;
+    margin-top: 50px;
+    width: 100%;
+    background-size: cover;
+}
+
+.columnasExamenes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    width: 100%;
+    height: 500px;
+}
+
+.contenedoresExamenes{
+    background-color: aquamarine;
+    background-size: cover;
+    height: 50%;
+    padding: 5%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.botonVerMas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+    position: absolute;
+    top: 10;
+    right: 10;
+    background-color: aquamarine;
+    border: none;
+    font-size: 40px;
+    color: black;
+    font-weight: bold;
+}
+
+.card {
+   border: 5px solid white;
+    background-size: cover;
+    height: 70%;
+    width: 80%;
+    padding: 5%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+    perspective: 1000px;
+}
+
+.card-face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0);
+    border-radius: 8px;
+}
+
+.front {
+    background-color: #fff;
+}
+
+.back {
+    background-color: #4caf50;
+    color: #fff;
+    transform: rotateY(180deg);
+}
+
+.card.is-flipped {
+    transform: rotateY(180deg);
+    perspective: 1000px;
+}
+
+/* Agregar perspectiva a los padres contenedores para un efecto 3D más realista */
+.card-container {
+    perspective: 1000px;
+}
+
+/* Efecto de "hover" para resaltar la interactividad de la tarjeta */
+.card:hover {
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+
+.miBoton {
+    display: inline-block;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    scroll-behavior: smooth;
+    scroll-padding-top: 100px;
+}
+
+.miBoton:hover {
+    opacity: 0.8;
+}
+
+
+.imagenFlecha{
+    width: 100%;
+    height: 100%;
+}
+
+.infoAperturaExamenes{
+    color: black;
+    font-size: 18px;
+    text-align: center;
+    width: 70%;
+}
+
+.miBoton{
+    padding: 10px 20px;
+    background-color: #5ebe61;
+}
+
+.botonRealizarTestNivelIngles{
+    padding: 15px 20px;
+    background-color: #008c58;
+    border-radius: 10px;
+    width: 15%;
+    text-align: center;
+    /*font-family: roboto-regular;*/
+    font-weight: 600;
+}
+
+.botonRealizarTestNivelIngles:hover{
+   color: black;
+   opacity: 0.8;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.seccionBotonTest{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
