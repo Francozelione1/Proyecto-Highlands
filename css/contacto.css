@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: roboto-regular;
+    box-sizing: border-box;
+}
+
+
+.contenedorSeccionContacto{
+    gap: 20px;
+    width: 100%;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedorInfoContacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    gap: 20px;
+}
+
+.separador{
+    background-color: #008c58 ;
+    color: #008c58;
+    font-size: 20px;
+}
+
+.tituloContactoConNosotros{
+    font-size: 30px;
+    text-align: center;
+    
+}
+
+.logoMasInfo{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoContacto{
+    max-width: 15%;
+}
+
+.contenedorImagenCelu{
+    width: 45%;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.imagenCelu{
+    max-width: 100%;
+    position: relative;
+}
