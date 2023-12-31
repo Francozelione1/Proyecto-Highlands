@@ -268,7 +268,7 @@ a{
     bottom: 40px;
     right: 40px;
     background-color: #25d366;
-    color: #fff;
+    color: #ffff !important;
     border-radius: 50px;
     text-align: center;
     font-size: 30px;
