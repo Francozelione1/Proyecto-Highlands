@@ -20,7 +20,12 @@ main{
 }
 
 a{
-    font-family: roboto;
+    list-style: none;
+    color: black;
+    text-decoration: none;
+    font-family: roboto-regular;
+    font-weight: 600;
+    font-size: 20px;
 }
 
 .contenedorTablas{
