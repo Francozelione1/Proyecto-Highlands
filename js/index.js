@@ -1,5 +1,5 @@
 
-window.addEventListener('resize', function() {
+function ajustarContenido() {
     let width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
 
     if (width <= 990) {
@@ -43,4 +43,7 @@ window.addEventListener('resize', function() {
         '<a href=""></a>' +
       '</nav>'
     }
-});
+}
+
+ajustarContenido()
+window.addEventListener('resize', ajustarContenido);
