@@ -53,7 +53,8 @@
     width: 90%;
     max-height: 90%;
     height: 90%;
-    border-radius: 500px;
+    border-radius: 100%;
+    border: solid 1px white;
 }
 
 .diapositivaInicio{
@@ -371,6 +372,11 @@ a:hover{
     background-color:#a9c7bc;
     transform: rotateY(180deg);
     color: black;
+    text-align: center;
+    font-size: 18px;
+    font-style: italic;
+    padding: 10px;
+    width: 100%;
   }
 
 
@@ -412,7 +418,8 @@ footer{
     height: 25%;
     width: 50%;
     margin: 10px 0;
-    border-radius: 500px;
+    border-radius: 100%;
+    border: solid 1px white;
 }
 
 .linksFooter{
