@@ -47,7 +47,6 @@
     background-color: #008c58;
     padding-top: 5px;
     width: 100%;
-    border-radius: 5px;
     overflow-x: hidden;
 }
 
@@ -480,6 +479,10 @@ footer{
         overflow-x: hidden;
     }
     
+    .container-fluid{
+        padding: 10px;
+    }
+
     .logo_navbar{
         width: 90%;
         max-height: 90%;
@@ -598,6 +601,16 @@ footer{
 .seccionFooter{
     width: 80%;
     align-items: center;
+    padding: 20px 0;
+}
+
+.logo_footer{
+    height: 25%;
+    width: 20%;
+    max-width: 20%;
+    margin: 10px 0;
+    border-radius: 100%;
+    border: solid 1px white;
 }
 
 
