@@ -14,20 +14,21 @@
 
 .header{
     width: 100%;
+    max-width: 100%;
     display: flex;
     background-size: cover;
     border-bottom: #008c58;
     position: fixed;
-    height: 11%;
     justify-content: center;
     align-items: flex-start;
     z-index: 1;
     top: 0;
+    overflow-x: hidden;
 }
 
 .contenedorLogo{
     display: flex;
-    height: 100%;
+    height: 100px;
     justify-content: center;
     align-items: center;
     background-color: #008c58;
@@ -35,11 +36,11 @@
     padding-top: 5px;
 }
 
-.navbar{
+.navbarNuestro{
     height: 90%;
     padding: 10px 0;
     display: flex;
-    gap: 80px;
+    gap: 40px;
     justify-content: center;
     align-items: center;
     background-size: cover;
@@ -47,12 +48,12 @@
     padding-top: 5px;
     width: 100%;
     border-radius: 5px;
+    overflow-x: hidden;
 }
 
 .logo_navbar{
     width: 90%;
     max-height: 90%;
-    height: 90%;
     border-radius: 100%;
     border: solid 1px white;
 }
@@ -65,7 +66,7 @@
     justify-content: flex-end;
     padding-right: 5%;
     align-items: center;
-    padding-top: 6%;
+    padding-top: 10%;
     padding-bottom: 2%;
     padding-left: 5%;
 }
@@ -261,38 +262,6 @@ a{
     font-size: 20px;
 }
 
-.whatsapp_float {
-    position: fixed;
-    width: 60px;
-    height: 60px;
-    bottom: 40px;
-    right: 40px;
-    background-color: #25d366;
-    color: #fff;
-    border-radius: 50px;
-    text-align: center;
-    font-size: 30px;
-    box-shadow: 2px 2px 3px #999;
-    z-index: 100;
-  }
-  .whatsapp-icon {
-    margin-top: 16px;
-  }
-
-  /* for mobile */
-  @media screen and (max-width: 767px){
-    .whatsapp-icon {
-      margin-top: 10px;
-    }
-    .whatsapp_float {
-      width: 40px;
-      height: 40px;
-      bottom: 20px;
-      right: 10px;
-      font-size: 22px;
-    }
-  }
-
 a:hover{
     color: rgb(136, 221, 178);
 }
@@ -469,3 +438,167 @@ footer{
     margin-bottom: 0;
 }
 
+
+.whatsapp_float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+}
+.whatsapp-icon {
+    margin-top: 16px;
+}
+
+/* for mobile */
+@media screen and (max-width: 990px){
+    .whatsapp-icon {
+      margin-top: 10px;
+    }
+    .whatsapp_float {
+      width: 40px;
+      height: 40px;
+      bottom: 20px;
+      right: 10px;
+      font-size: 22px;
+    }
+    
+    .navbarNuestro{
+        padding: 0 0 0 0;
+    }
+
+    .navColor{
+        background-size: cover;
+        background-color: #008c58;
+        overflow-x: hidden;
+    }
+    
+    .logo_navbar{
+        width: 90%;
+        max-height: 90%;
+        height: 90%;
+        border-radius: 100%;
+        border: solid 1px white;
+    }
+
+    .diapositivaInicio{
+        flex-direction: column;
+    }
+
+    .tituloHighlands{
+        font-family: 'Dancing Script', cursive;
+        font-weight: 700;
+        font-size: 50px;
+        color: aliceblue;
+    }
+    
+    .contenedorTextoPrincipal{
+        width: 90%;
+        text-align: center;
+        align-items: center;
+        margin-top: 50px;
+    }
+
+    .nav-link{
+        list-style: none;
+        color: black;
+        text-decoration: none;
+        font-family: roboto-regular;
+        font-weight: 600;
+        font-size: 20px;
+    }
+
+    .nav-link:hover{
+        color: rgb(136, 221, 178);
+    }
+
+    .secciones{
+        font-size: 10px;
+    }
+
+    .contenedorFotoComputadora{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+    }
+    
+    .fotoComputadora{
+        width: 80%;
+        border: solid 2px #008c58;
+    }
+
+.contenedorRubros{
+    grid-template-columns: repeat(1, 70%);
+    column-gap: 10%;
+    row-gap: 100px;
+    padding: 5% 0;
+}
+
+.rubro{
+    flex-direction: column;
+    gap: 20px;
+}
+
+.diapositivaLogros{
+   flex-direction: column;
+   gap: 50px;
+   padding-top: 50px;
+}
+
+.contenedorImgEstudiantes{
+    width: 100%;
+    max-width: 100%;
+}
+
+.contenedorLogros{
+    width: 100%;
+    max-width: 100%;
+    gap: 40px;
+}
+
+.cuadrado{
+    width: 85%;
+}
+
+.simbolo{  
+    font-size: 40px;
+}
+
+.info{
+    font-size: 15px;
+    width: 80%;
+}
+
+
+.cardsTestimonio{
+    flex-direction: column;
+    max-width: 100%;
+    gap:30px;
+}
+
+
+.contenido_footer{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 30px;
+    text-align: center;
+}
+
+.seccionFooter{
+    width: 80%;
+    align-items: center;
+}
+
+
+}
