@@ -149,5 +149,64 @@ a{
 }
 
 .lineaTemporal{
-    margin: 20px;
+    padding: 10px;
+    max-width: 100%;
+    width: 100%;
+}
+
+h4{
+    line-height: 2;
+}
+
+@media screen and (max-width:990px) {
+    
+    .nosotros{
+        width: 100%;
+        max-width: 100%;
+        flex-direction: column;
+        text-align: center;
+        gap: 50px;
+    }
+
+    .contenedorInfo{
+        width: 90%;
+        max-width: 90%;
+    }
+    
+    .contenedorImagen{
+        max-width: 80%;
+    }
+    
+    h4{
+        line-height: 2;
+    }
+
+    .nosotros-2{
+        flex-direction: column;
+    }
+    
+    .contenedorInfoCierre{
+        flex-direction: column;
+    }
+    
+    .contenedorTexto{
+        flex-direction: column;
+        width: 90%;
+        gap: 20px;
+    }
+    
+    .tituloCeo{
+        font-size: 40px;
+    }
+    
+    .contenedorImagenCeo{
+        width: 100%;
+        padding: 10px;
+    }
+
+    .fotoCeo{
+        position: relative;
+        max-width: 50%;
+    }
+
 }

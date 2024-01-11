@@ -31,7 +31,16 @@ p{
 }
 
 .fotoCurso{
-    width:260px;
+    min-width:5%;
+    width: 8%;
+    max-width: 10%;
+    padding-top: 10px;
+}
+
+.fotoCursoAcelerado{
+    width: 10%;
+    max-width: 15%;
+    padding-top: 20px;
 }
 
 .contenedorCurso{
@@ -50,7 +59,7 @@ p{
     width: 100%;
     background: linear-gradient(to right, rgb(140, 236, 216) 0%, rgb(78, 233, 148) 100%);
     background-size: cover;
-    gap: 0px;
+    gap: 50px;
     justify-content: center;
     text-align: center;
     align-items: center;

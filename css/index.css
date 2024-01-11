@@ -17,13 +17,14 @@
     max-width: 100%;
     display: flex;
     background-size: cover;
-    border-bottom: #008c58;
+    border-bottom: #149968;
     position: fixed;
     justify-content: center;
     align-items: flex-start;
     z-index: 1;
     top: 0;
     overflow-x: hidden;
+    color: white;
 }
 
 .contenedorLogo{
@@ -31,7 +32,7 @@
     height: 100px;
     justify-content: center;
     align-items: center;
-    background-color: #008c58;
+    background-color: #149968;
     background-size: cover;
     padding-top: 5px;
 }
@@ -44,10 +45,11 @@
     justify-content: center;
     align-items: center;
     background-size: cover;
-    background-color: #008c58;
+    background-color: #149968;
     padding-top: 5px;
     width: 100%;
     overflow-x: hidden;
+    color: white;
 }
 
 .logo_navbar{
@@ -57,15 +59,19 @@
     border: solid 1px white;
 }
 
+.secciones{
+    color: white;
+}
+
 .diapositivaInicio{
     width: 100%;
-    background-color: #008c58;
+    background-color: #149968;
     background-size: cover;
     display: flex;
     justify-content: flex-end;
     padding-right: 5%;
     align-items: center;
-    padding-top: 10%;
+    padding-top: 9%;
     padding-bottom: 2%;
     padding-left: 5%;
 }
@@ -146,7 +152,7 @@
 .fotoComputadora{
     max-width: 100%;
     width: 90%;
-    border: solid 2px #008c58;
+    border: solid 2px #149968;
 }
 
 .diapositivaQueHacemos{
@@ -163,7 +169,7 @@
 .tituloQueHacemos{
     width: 80%;
     border: none;
-    border-top: 1px solid #008c58;
+    border-top: 1px solid #149968;
     opacity: 1;
 }
 
@@ -198,7 +204,7 @@
 }
 
 .diapositivaLogros{
-    background-color: #008c58;
+    background-color: #149968;
     background-size: cover;
     justify-content: center;
     align-items: center;
@@ -218,18 +224,18 @@
     width: 45%;
     justify-content: center;
     align-items: center;
-    border: solid 3px #008c58;
+    border: solid 3px #149968;
 }
 
 .imgEstudiantes{
     width: 90%;
-    border: solid 3px #008c58;
+    border: solid 3px #149968;
 }
 
 .seccionEslogan{
     position: relative;
     width: 100%;
-    background-color:#008c58;
+    background-color:#149968;
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -238,9 +244,10 @@
 .separadores{
     width: 5px;
     height: 50%;
-    color: white;
-    background-color: white;
+    color: black;
+    background-color: black;
     margin: 0;
+    border-radius: 10px;
 }
 
 .tituloTestimonio{
@@ -254,11 +261,11 @@
 
 a{
     list-style: none;
-    color: black;
     text-decoration: none;
     font-family: roboto-regular;
     font-weight: 600;
     font-size: 20px;
+    color: black;
 }
 
 .whatsapp_float {
@@ -328,7 +335,7 @@ a:hover{
 
 .simbolo{
     position: relative;
-    color: #008c58;
+    color: #149968;
     font-size: 50px;
     font-weight: bold;
     font-family: 'Space Grotesk', sans-serif;
@@ -397,7 +404,7 @@ a:hover{
   }
 
   .cardTestimonio-front {
-    background-color:#0a9260;
+    background-color:#149968;
   }
 
   .cardTestimonio-back {
@@ -418,13 +425,13 @@ a:hover{
 }
 
 footer{
-    background-color:#008c58;
+    background-color:#149968;
     color: black;
 }
 
 .contenido_footer{
     display: flex;
-    background-color:#008c58;
+    background-color:#149968;
     background-size: cover;
     justify-content: center;
     align-items: flex-start;
@@ -506,7 +513,7 @@ footer{
 
     .navColor{
         background-size: cover;
-        background-color: #008c58;
+        background-color: #149968;
         overflow-x: hidden;
     }
     
@@ -567,7 +574,7 @@ footer{
     
     .fotoComputadora{
         width: 80%;
-        border: solid 2px #008c58;
+        border: solid 2px #149968;
     }
 
 .contenedorRubros{
