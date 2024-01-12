@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,13 +6,13 @@
     line-height: 35px;
 }
 
-.contacto_footer{
+.contacto_footer {
     display: flex;
     flex-direction: column;
     text-align: right;
 }
 
-.header{
+.header {
     width: 100%;
     max-width: 100%;
     display: flex;
@@ -27,7 +27,7 @@
     color: white;
 }
 
-.contenedorLogo{
+.contenedorLogo {
     display: flex;
     height: 100px;
     justify-content: center;
@@ -37,7 +37,7 @@
     padding-top: 5px;
 }
 
-.navbarNuestro{
+.navbarNuestro {
     height: 90%;
     padding: 10px 0;
     display: flex;
@@ -52,18 +52,18 @@
     color: white;
 }
 
-.logo_navbar{
+.logo_navbar {
     width: 90%;
     max-height: 90%;
     border-radius: 100%;
     border: solid 1px white;
 }
 
-.secciones{
+.secciones {
     color: white;
 }
 
-.diapositivaInicio{
+.diapositivaInicio {
     width: 100%;
     background-color: #149968;
     background-size: cover;
@@ -76,7 +76,7 @@
     padding-left: 5%;
 }
 
-.contenedorTextoPrincipal{
+.contenedorTextoPrincipal {
     width: 35%;
     display: flex;
     flex-direction: column;
@@ -86,14 +86,25 @@
     gap: 20px;
 }
 
-.tituloHighlands{
+.tituloHighlands {
+    display: flex;
+    flex-direction: column;
     font-family: 'Dancing Script', cursive;
     font-weight: 700;
     font-size: 110px;
     color: aliceblue;
+    text-align: center;
 }
 
-.tituloHighlandsTexto{
+.subHighlands {
+    font-family: roboto-regular;
+    font-weight: 500;
+    font-size: 22px;
+    color: aliceblue;
+    font-family: 'Dancing Script', cursive;
+}
+
+.tituloHighlandsTexto {
     color: aliceblue;
     font-family: roboto-regular;
     line-height: 35px;
@@ -101,17 +112,18 @@
     width: 100%;
 }
 
-.listadoDiapositivaInicio{
+
+.listadoDiapositivaInicio {
     color: aliceblue;
 }
 
-.listadoDiapositivaInicioItem{
+.listadoDiapositivaInicioItem {
     text-decoration: none;
     color: aliceblue;
     font-size: 17px;
 }
 
-.contenedorBotonContactanosPrincipal{
+.contenedorBotonContactanosPrincipal {
     background-color: aliceblue;
     display: flex;
     justify-content: center;
@@ -122,12 +134,12 @@
     cursor: pointer;
 }
 
-.contenedorBotonContactanosPrincipal:hover{
+.contenedorBotonContactanosPrincipal:hover {
     background-color: aquamarine;
     color: black;
 }
 
-.botonContactanosPrincipal{
+.botonContactanosPrincipal {
     width: 100%;
     color: black;
     font-size: 17px;
@@ -135,11 +147,11 @@
     text-transform: none;
 }
 
-.botonContactanosPrincipal:hover{
+.botonContactanosPrincipal:hover {
     color: black;
 }
 
-.contenedorFotoComputadora{
+.contenedorFotoComputadora {
     width: 60%;
     display: flex;
     align-self: flex-end;
@@ -149,13 +161,13 @@
     overflow: hidden;
 }
 
-.fotoComputadora{
+.fotoComputadora {
     max-width: 100%;
     width: 90%;
     border: solid 2px #149968;
 }
 
-.diapositivaQueHacemos{
+.diapositivaQueHacemos {
     width: 100%;
     height: 100%;
     background-color: rgb(255, 255, 255);
@@ -166,14 +178,14 @@
     align-items: center;
 }
 
-.tituloQueHacemos{
+.tituloQueHacemos {
     width: 80%;
     border: none;
     border-top: 1px solid #149968;
     opacity: 1;
 }
 
-.contenedorRubros{
+.contenedorRubros {
     display: grid;
     place-items: center;
     grid-template-columns: repeat(3, 20%);
@@ -183,7 +195,7 @@
     padding: 9% 0;
 }
 
-.rubro{
+.rubro {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -191,19 +203,19 @@
     gap: 8%;
 }
 
-.fotoRubro{
+.fotoRubro {
     max-width: 30%;
     width: 30%;
 }
 
-.infoRubro{
+.infoRubro {
     text-align: center;
     font-size: 17px;
     font-weight: 500;
     margin-bottom: 0;
 }
 
-.diapositivaLogros{
+.diapositivaLogros {
     background-color: #149968;
     background-size: cover;
     justify-content: center;
@@ -213,12 +225,12 @@
     padding: 5% 0;
 }
 
-.tituloLogros{
+.tituloLogros {
     color: black;
     font-family: roboto;
 }
 
-.contenedorImgEstudiantes{
+.contenedorImgEstudiantes {
     display: flex;
     max-width: 45%;
     width: 45%;
@@ -227,21 +239,21 @@
     border: solid 3px #149968;
 }
 
-.imgEstudiantes{
+.imgEstudiantes {
     width: 90%;
     border: solid 3px #149968;
 }
 
-.seccionEslogan{
+.seccionEslogan {
     position: relative;
     width: 100%;
-    background-color:#149968;
+    background-color: #149968;
     background-size: cover;
     display: flex;
     justify-content: center;
 }
 
-.separadores{
+.separadores {
     width: 5px;
     height: 50%;
     color: black;
@@ -250,7 +262,7 @@
     border-radius: 10px;
 }
 
-.tituloTestimonio{
+.tituloTestimonio {
     font-size: 30px;
     color: black;
     position: relative;
@@ -259,7 +271,7 @@
     margin-top: 30px;
 }
 
-a{
+a {
     list-style: none;
     text-decoration: none;
     font-family: roboto-regular;
@@ -281,31 +293,33 @@ a{
     font-size: 30px;
     box-shadow: 2px 2px 3px #999;
     z-index: 100;
-  }
-  .whatsapp-icon {
+}
+
+.whatsapp-icon {
     margin-top: 16px;
-  }
+}
 
-  /* for mobile */
-  @media screen and (max-width: 767px){
+/* for mobile */
+@media screen and (max-width: 767px) {
     .whatsapp-icon {
-      margin-top: 10px;
+        margin-top: 10px;
     }
-    .whatsapp_float {
-      width: 40px;
-      height: 40px;
-      bottom: 20px;
-      right: 10px;
-      font-size: 22px;
-    }
-  }
 
-a:hover{
+    .whatsapp_float {
+        width: 40px;
+        height: 40px;
+        bottom: 20px;
+        right: 10px;
+        font-size: 22px;
+    }
+}
+
+a:hover {
     color: rgb(136, 221, 178);
 }
 
 
-.contenedorLogros{
+.contenedorLogros {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -316,7 +330,7 @@ a:hover{
     max-width: 45%;
 }
 
-.cuadrado{
+.cuadrado {
     position: relative;
     display: flex;
     width: 50%;
@@ -330,10 +344,10 @@ a:hover{
     border-radius: 100px;
     box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.2);
     text-align: center;
-    
+
 }
 
-.simbolo{
+.simbolo {
     position: relative;
     color: #149968;
     font-size: 50px;
@@ -342,16 +356,16 @@ a:hover{
     margin-bottom: 0;
 }
 
-.info{
+.info {
     position: relative;
     color: black;
     font-size: 20px;
-    opacity: 0.5;    
+    opacity: 0.5;
     width: 80%;
 
 }
 
-.seccionTestimonios{
+.seccionTestimonios {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -360,34 +374,34 @@ a:hover{
     margin: 50px 0;
 }
 
-.cardsTestimonio{
+.cardsTestimonio {
     display: flex;
     max-width: 80%;
-    gap:100px;
+    gap: 100px;
 }
 
-.cardTestimonio{
+.cardTestimonio {
     width: 250px;
     height: 350px;
     perspective: 1000px;
     margin: 50px auto;
-   
-  }
 
-  .cardTestimonio-inner {
+}
+
+.cardTestimonio-inner {
     width: 100%;
     height: 100%;
     transform-style: preserve-3d;
     transition: transform 0.5s;
-   
-  }
 
-  .cardTestimonio:hover .cardTestimonio-inner {
+}
+
+.cardTestimonio:hover .cardTestimonio-inner {
     transform: rotateY(180deg);
-  }
+}
 
-  .cardTestimonio-front,
-  .cardTestimonio-back {
+.cardTestimonio-front,
+.cardTestimonio-back {
     width: 100%;
     height: 100%;
     position: absolute;
@@ -401,14 +415,14 @@ a:hover{
     font-family: roboto-regular;
     font-weight: 500;
     box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.2);
-  }
+}
 
-  .cardTestimonio-front {
-    background-color:#149968;
-  }
+.cardTestimonio-front {
+    background-color: #149968;
+}
 
-  .cardTestimonio-back {
-    background-color:#a9c7bc;
+.cardTestimonio-back {
+    background-color: #a9c7bc;
     transform: rotateY(180deg);
     color: black;
     text-align: center;
@@ -416,44 +430,46 @@ a:hover{
     font-style: italic;
     padding: 10px;
     width: 100%;
-  }
+}
 
 
-.fotoTestimonio{
+.fotoTestimonio {
     width: 100%;
     height: 90%;
 }
 
-footer{
-    background-color:#149968;
+footer {
+    background-color: #149968;
     color: black;
 }
 
-.contenido_footer{
+.contenido_footer {
     display: flex;
-    background-color:#149968;
+    background-color: #149968;
     background-size: cover;
     justify-content: center;
     align-items: flex-start;
+    text-align: center;
     width: 100%;
-    gap: 8%;
+    gap: 70px;
     padding: 2% 0;
 }
 
-.seccionFooter{
+.seccionFooter {
     width: 10%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: justify;
+    align-items: center;
+    text-align: center;
 }
 
-.titulosFooter{
+.titulosFooter {
     font-size: 20px;
     font-weight: bold;
 }
 
-.logo_footer{
+.logo_footer {
     height: 25%;
     width: 50%;
     margin: 10px 0;
@@ -461,18 +477,20 @@ footer{
     border: solid 1px white;
 }
 
-.linksFooter{
+.linksFooter {
     color: black;
     font-weight: 400;
     font-size: 15px;
 }
 
-.redes_footer{
+.redes_footer {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.telefono_footer{
+.telefono_footer {
     margin-bottom: 0;
 }
 
@@ -490,38 +508,40 @@ footer{
     box-shadow: 2px 2px 3px #999;
     z-index: 100;
 }
+
 .whatsapp-icon {
     margin-top: 16px;
 }
 
 /* for mobile */
-@media screen and (max-width: 990px){
+@media screen and (max-width: 990px) {
     .whatsapp-icon {
-      margin-top: 10px;
+        margin-top: 10px;
     }
+
     .whatsapp_float {
-      width: 40px;
-      height: 40px;
-      bottom: 20px;
-      right: 10px;
-      font-size: 22px;
+        width: 40px;
+        height: 40px;
+        bottom: 20px;
+        right: 10px;
+        font-size: 22px;
     }
-    
-    .navbarNuestro{
+
+    .navbarNuestro {
         padding: 0 0 0 0;
     }
 
-    .navColor{
+    .navColor {
         background-size: cover;
         background-color: #149968;
         overflow-x: hidden;
     }
-    
-    .container-fluid{
+
+    .container-fluid {
         padding: 10px;
     }
 
-    .logo_navbar{
+    .logo_navbar {
         width: 90%;
         max-height: 90%;
         height: 90%;
@@ -529,25 +549,25 @@ footer{
         border: solid 1px white;
     }
 
-    .diapositivaInicio{
+    .diapositivaInicio {
         flex-direction: column;
     }
 
-    .tituloHighlands{
+    .tituloHighlands {
         font-family: 'Dancing Script', cursive;
         font-weight: 700;
-        font-size: 50px;
+        font-size: 60px;
         color: aliceblue;
     }
-    
-    .contenedorTextoPrincipal{
+
+    .contenedorTextoPrincipal {
         width: 90%;
         text-align: center;
         align-items: center;
         margin-top: 50px;
     }
 
-    .nav-link{
+    .nav-link {
         list-style: none;
         color: black;
         text-decoration: none;
@@ -556,100 +576,115 @@ footer{
         font-size: 20px;
     }
 
-    .nav-link:hover{
+    .nav-link:hover {
         color: rgb(136, 221, 178);
     }
 
-    .secciones{
+    .secciones {
         font-size: 10px;
     }
 
-    .contenedorFotoComputadora{
+    .contenedorFotoComputadora {
         width: 100%;
         display: flex;
+        flex-direction: column;
+        gap: 20px;
         align-items: center;
         justify-content: center;
-        padding: 10px;
+        padding: 20px 0 0 0;
+        margin-top: 20px;
     }
-    
-    .fotoComputadora{
+
+    .fotoComputadora {
         width: 80%;
         border: solid 2px #149968;
     }
 
-.contenedorRubros{
-    grid-template-columns: repeat(1, 70%);
-    column-gap: 10%;
-    row-gap: 100px;
-    padding: 5% 0;
-}
+    .fotoCompuSola{
+        max-width: 90%;
+    }
 
-.rubro{
-    flex-direction: column;
-    gap: 20px;
-}
+    .imgLogos{
+        max-width: 100%;
+        width: 100%;
+        display: flex;
+        padding: 0 0 0 0;
+    }
 
-.diapositivaLogros{
-   flex-direction: column;
-   gap: 50px;
-   padding-top: 50px;
-}
+    .contenedorRubros {
+        grid-template-columns: repeat(1, 70%);
+        column-gap: 10%;
+        row-gap: 100px;
+        padding: 5% 0;
+    }
 
-.contenedorImgEstudiantes{
-    width: 100%;
-    max-width: 100%;
-}
+    .rubro {
+        flex-direction: column;
+        gap: 20px;
+    }
 
-.contenedorLogros{
-    width: 100%;
-    max-width: 100%;
-    gap: 40px;
-}
+    .diapositivaLogros {
+        flex-direction: column;
+        gap: 50px;
+        padding-top: 50px;
+    }
 
-.cuadrado{
-    width: 85%;
-}
+    .contenedorImgEstudiantes {
+        width: 100%;
+        max-width: 100%;
+    }
 
-.simbolo{  
-    font-size: 40px;
-}
+    .contenedorLogros {
+        width: 100%;
+        max-width: 100%;
+        gap: 40px;
+    }
 
-.info{
-    font-size: 15px;
-    width: 80%;
-}
+    .cuadrado {
+        width: 85%;
+    }
+
+    .simbolo {
+        font-size: 40px;
+    }
+
+    .info {
+        font-size: 15px;
+        width: 80%;
+    }
 
 
-.cardsTestimonio{
-    flex-direction: column;
-    max-width: 100%;
-    gap:30px;
-}
+    .cardsTestimonio {
+        flex-direction: column;
+        max-width: 100%;
+        gap: 30px;
+    }
 
 
-.contenido_footer{
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    gap: 30px;
-    text-align: center;
-}
+    .contenido_footer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 30px;
+        text-align: center;
+    }
 
-.seccionFooter{
-    width: 80%;
-    align-items: center;
-    padding: 20px 0;
-}
+    .seccionFooter {
+        width: 80%;
+        align-items: center;
+        padding: 20px 0;
+    }
 
-.logo_footer{
-    height: 25%;
-    width: 20%;
-    max-width: 20%;
-    margin: 10px 0;
-    border-radius: 100%;
-    border: solid 1px white;
-}
+    .logo_footer {
+        height: 25%;
+        width: 20%;
+        max-width: 20%;
+        margin: 10px 0;
+        border-radius: 100%;
+        border: solid 1px white;
+    }
+
 
 
 }

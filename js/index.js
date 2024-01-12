@@ -26,7 +26,19 @@ function ajustarContenido() {
           '</div>' +
         '</div>' +
       '</nav>'
+
+      document.getElementById("fotoCompu").innerHTML = 
+      `
+      <img class="imgLogos" src="fotosComponente/imgLogos.svg" alt="fotoCompu">
+      <img class="fotoCompuSola" src="fotosComponente/imgCompuSola.svg" alt="fotoCompu">
+      `
+      
+      
     } else {
+      document.getElementById("fotoCompu").innerHTML = 
+      `
+      <img class="fotoComputadora" src="fotosComponente/imgCompu.svg" alt="">
+      `
         document.getElementById("header").innerHTML = '<nav class="navbarNuestro">' +
         '<div class="contenedorLogo">' +
           '<img class="logo_navbar" href="index.html" src="fotosComponente/logito.jpeg" alt="Logo Highlands">' +
