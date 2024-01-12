@@ -30,9 +30,9 @@ a{
     display: flex;
     flex-direction: column;
     gap: 50px;
+    margin-top: 50px;
     justify-content: center;
     align-items: center;
-
 }
 
 .tituloExamenes{
@@ -262,7 +262,7 @@ button:hover {
     color: black;
     font-size: 18px;
     text-align: center;
-    width: 70%;
+    max-width: 80%;
 }
 
 .miBoton{
@@ -317,6 +317,10 @@ main{
     
     .card {
         width: 50%;
+    }
+
+    .tituloExamenes{
+        max-width: 80%;
     }
     
 }

@@ -86,14 +86,29 @@
     gap: 20px;
 }
 
-.tituloHighlands {
+.contenedorTituloConFotoSubtitulo{
     display: flex;
     flex-direction: column;
+    gap: 10px;
+}
+
+.contenedorTituloConFoto{
+    display: flex;
+    gap: 20px;
+}
+
+.tituloHighlands {
     font-family: 'Dancing Script', cursive;
     font-weight: 700;
     font-size: 110px;
     color: aliceblue;
     text-align: center;
+}
+
+.logoPortada{
+    width: 150px;
+    border-radius: 100%;
+    border: solid 1px white;
 }
 
 .subHighlands {
@@ -163,7 +178,7 @@
 
 .fotoComputadora {
     max-width: 100%;
-    width: 90%;
+    width: 100%;
     border: solid 2px #149968;
 }
 
@@ -513,6 +528,42 @@ footer {
     margin-top: 16px;
 }
 
+/*    Tablets/Compus chicas    */
+@media screen and (max-width: 1450px) {
+    
+    .tituloHighlands {
+        font-family: 'Dancing Script', cursive;
+        font-weight: 700;
+        font-size: 70px;
+        color: aliceblue;
+    }
+
+    .contenedorTextoPrincipal {
+        width: 90%;
+        margin-top: 50px;
+    }
+
+    .contenedorFotoComputadora {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+        padding: 20px 0 0 0;
+        margin: 20px 0 20px 0;
+    }
+
+    .logoPortada{
+        width: 90px;
+    }
+
+    .tituloHighlandsTexto{
+        font-size: 16px;
+    }
+
+}
+
 /* for mobile */
 @media screen and (max-width: 990px) {
     .whatsapp-icon {
@@ -562,8 +613,12 @@ footer {
     .tituloHighlands {
         font-family: 'Dancing Script', cursive;
         font-weight: 700;
-        font-size: 80px;
+        font-size: 50px;
         color: aliceblue;
+    }
+
+    .logoPortada{
+        width: 70px;
     }
 
     .contenedorTextoPrincipal {
@@ -599,11 +654,6 @@ footer {
         justify-content: center;
         padding: 20px 0 0 0;
         margin: 20px 0 20px 0;
-    }
-
-    .fotoComputadora {
-        width: 80%;
-        border: solid 2px #149968;
     }
 
     .fotoCompuSola{
@@ -647,7 +697,7 @@ footer {
     }
 
     .cuadrado {
-        width: 60%;
+        width: 90%;
     }
 
     .simbolo {
@@ -691,7 +741,5 @@ footer {
         border-radius: 100%;
         border: solid 1px white;
     }
-
-
 
 }

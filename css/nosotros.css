@@ -131,6 +131,7 @@ a{
     color: white;
     font-family: cursive;
     font-size: 15px;
+    font-weight: 400;
     text-align: center;
     width: 100%;
     line-height: 3;
@@ -191,7 +192,7 @@ h4{
     
     .contenedorTexto{
         flex-direction: column;
-        width: 90%;
+        width: 100%;
         gap: 20px;
     }
     
