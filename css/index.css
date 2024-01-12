@@ -77,7 +77,7 @@
 }
 
 .contenedorTextoPrincipal {
-    width: 35%;
+    width: 45%;
     display: flex;
     flex-direction: column;
     position: relative;
@@ -99,7 +99,7 @@
 .subHighlands {
     font-family: roboto-regular;
     font-weight: 500;
-    font-size: 22px;
+    font-size: 25px;
     color: aliceblue;
     font-family: 'Dancing Script', cursive;
 }
@@ -152,11 +152,11 @@
 }
 
 .contenedorFotoComputadora {
-    width: 60%;
+    width: 50%;
     display: flex;
     align-self: flex-end;
     align-items: flex-end;
-    justify-content: flex-end;
+    justify-content: center;
     position: relative;
     overflow: hidden;
 }
@@ -242,6 +242,7 @@
 .imgEstudiantes {
     width: 90%;
     border: solid 3px #149968;
+    border-radius: 50px;
 }
 
 .seccionEslogan {
@@ -323,7 +324,7 @@ a:hover {
     position: relative;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 40px;
     justify-content: center;
     align-items: center;
     width: 45%;
@@ -333,18 +334,18 @@ a:hover {
 .cuadrado {
     position: relative;
     display: flex;
-    width: 50%;
-    height: 200px;
     flex-direction: column;
-    background-color: rgb(255, 255, 255);
-    color: black;
     justify-content: center;
     align-items: center;
-    gap: 20px;
-    border-radius: 100px;
-    box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.2);
     text-align: center;
-
+    width: 60%;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.2);
+    color: black;
+    padding-top: 10px;
+    gap: 5px;
+    border-radius: 100px;
 }
 
 .simbolo {
@@ -360,9 +361,8 @@ a:hover {
     position: relative;
     color: black;
     font-size: 20px;
-    opacity: 0.5;
+    opacity: 0.8;
     width: 80%;
-
 }
 
 .seccionTestimonios {
@@ -529,12 +529,18 @@ footer {
 
     .navbarNuestro {
         padding: 0 0 0 0;
+        color: white;
     }
 
     .navColor {
         background-size: cover;
         background-color: #149968;
         overflow-x: hidden;
+        color: white;
+    }
+
+    .navbar-inicio{
+        color: white;
     }
 
     .container-fluid {
@@ -556,7 +562,7 @@ footer {
     .tituloHighlands {
         font-family: 'Dancing Script', cursive;
         font-weight: 700;
-        font-size: 60px;
+        font-size: 80px;
         color: aliceblue;
     }
 
@@ -569,7 +575,7 @@ footer {
 
     .nav-link {
         list-style: none;
-        color: black;
+        color: white;
         text-decoration: none;
         font-family: roboto-regular;
         font-weight: 600;
@@ -592,7 +598,7 @@ footer {
         align-items: center;
         justify-content: center;
         padding: 20px 0 0 0;
-        margin-top: 20px;
+        margin: 20px 0 20px 0;
     }
 
     .fotoComputadora {
@@ -605,10 +611,10 @@ footer {
     }
 
     .imgLogos{
-        max-width: 100%;
-        width: 100%;
+        max-width: 80%;
         display: flex;
         padding: 0 0 0 0;
+        border-radius: 20px;
     }
 
     .contenedorRubros {
@@ -630,8 +636,8 @@ footer {
     }
 
     .contenedorImgEstudiantes {
-        width: 100%;
-        max-width: 100%;
+        width: 80%;
+        max-width: 80%;
     }
 
     .contenedorLogros {
@@ -641,7 +647,7 @@ footer {
     }
 
     .cuadrado {
-        width: 85%;
+        width: 60%;
     }
 
     .simbolo {
@@ -668,17 +674,18 @@ footer {
         width: 100%;
         gap: 30px;
         text-align: center;
+        padding: 0;
+        padding-top: 30px;
     }
 
     .seccionFooter {
         width: 80%;
         align-items: center;
-        padding: 20px 0;
     }
 
     .logo_footer {
         height: 25%;
-        width: 20%;
+        width: 10%;
         max-width: 20%;
         margin: 10px 0;
         border-radius: 100%;

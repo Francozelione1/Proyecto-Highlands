@@ -2,8 +2,6 @@ p{
     font-family: roboto-regular;
 }
 
-
-
 html {
     scroll-behavior: smooth; /* Ajusta según tus necesidades */
 }
@@ -13,7 +11,6 @@ img{
     height: 100%;
     font-family: roboto-regular ;
 }
-
 
 main{
     margin-top: 11%;
@@ -101,14 +98,13 @@ main{
     margin-bottom: 150px;
 }
 
-
 .seccionExamenes{
     display: grid;
     place-items: center;
     grid-template-columns: repeat(4, 0.5fr);
     column-gap: 20px;
     background-color: #008c58;
-    padding: 5% 10%;
+    padding: 5% 20px;
     margin-top: 50px;
     width: 100%;
     background-size: cover;
@@ -155,7 +151,7 @@ main{
 .card {
     background-size: cover;
     height: 70%;
-    width: 80%;
+    width: 95%;
     border-radius: 10px;
     display: flex;
     align-items: center;
@@ -278,7 +274,7 @@ button:hover {
     padding: 15px 20px;
     background-color: #008c58;
     border-radius: 10px;
-    width: 15%;
+    background-size: cover;
     text-align: center;
     /*font-family: roboto-regular;*/
     font-weight: 600;
@@ -298,27 +294,43 @@ main{
 .seccionBotonTest{
     width: 100%;
     display: flex;
+    flex-direction: column;
+    gap: 40px;
     justify-content: center;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 70px;
 }
+
 
 @media screen and (max-width: 990px) {
     
     .contenedorTablas{
         padding-top: 80px;
     }
-
+    
     .seccionExamenes{
         grid-template-columns: repeat(1, 1fr);
         column-gap: 20px;
         row-gap: 30px;
         padding: 80px 0;
     }
-
-    .botonRealizarTestNivelIngles{
+    
+    .card {
         width: 50%;
     }
+    
+}
 
+@media screen and (max-width: 600px) {
+    .card {
+        width: 70%;
+    }
+}
 
+@media screen and (min-width: 1500px) {
+    
+    .card {
+        width: 80%;
+    }
+    
 }
