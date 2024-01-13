@@ -16,6 +16,11 @@ main{
     margin-top: 11%;
 }
 
+.logo_navbar{
+    max-width: 100%;
+    width: 100%;
+}
+
 a{
     list-style: none;
     color: black;

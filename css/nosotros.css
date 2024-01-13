@@ -21,11 +21,17 @@ main{
 }
 
 .nosotros{
-    width: 70%;
-    gap: 5%;
+    width: 80%;
+    gap: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.contenedorInfoTexto{
+    font-size: 18px;
+    width: 90%;
+    font-size: 20px;
 }
 
 .whatsapp_float {
@@ -172,6 +178,9 @@ h4{
     .contenedorInfo{
         width: 90%;
         max-width: 90%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
     }
     
     .contenedorImagen{
@@ -188,6 +197,11 @@ h4{
     
     .contenedorInfoCierre{
         flex-direction: column;
+    }
+
+    .contenedorInfoTexto{
+        font-size: 18px;
+        width: 90%;
     }
     
     .contenedorTexto{
@@ -208,6 +222,12 @@ h4{
     .fotoCeo{
         position: relative;
         max-width: 50%;
+    }
+
+    .infoCierre{
+        width: 90%;
+        font-size: 20px;
+        font-family: roboto-regular;
     }
 
 }

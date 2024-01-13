@@ -52,7 +52,7 @@ a{
     position: relative;
     align-items: center;
     justify-content: center;
-    margin-top: 150px;
+    margin-top: 200px;
     margin-bottom: 75px;
 }
 
@@ -166,7 +166,7 @@ a{
 
     .contenedorInfoContactoInfo{
         width: 100%;
-        font-size: 15px;
+        font-size: 18px;
     }
 
     .contenedorInfoContactoBtn{

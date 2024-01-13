@@ -38,7 +38,7 @@ p{
 }
 
 .fotoCursoAcelerado{
-    width: 20%;
+    width: 15%;
     max-width: 20%;
 }
 
@@ -125,12 +125,12 @@ a{
 @media screen and (max-width: 990px) {
     
     .fotoCursoAcelerado{
-        width: 30%;
+        width: 20%;
         max-width: 30%;
     }
 
     .fotoCurso{
-        width: 20%;
+        width: 15%;
         max-width: 20%;
     }
    
@@ -139,4 +139,19 @@ a{
         gap: 10px;
     }
 
+}
+
+@media  screen and (max-width: 500px) {
+
+    #primerCurso {
+        margin-top: 3rem;
+        text-align: center;
+        max-width: 80%;
+        font-size: 35px;
+    }
+
+    .contenedorPortadaCurso{
+        font-size: 22px;
+        gap: 10px;
+    }
 }

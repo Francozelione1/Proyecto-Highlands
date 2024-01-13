@@ -541,6 +541,7 @@ footer {
     .contenedorTextoPrincipal {
         width: 90%;
         margin-top: 50px;
+        padding-left: 50px;
     }
 
     .contenedorFotoComputadora {
@@ -735,11 +736,18 @@ footer {
 
     .logo_footer {
         height: 25%;
-        width: 10%;
+        width: 20%;
         max-width: 20%;
         margin: 10px 0;
         border-radius: 100%;
         border: solid 1px white;
     }
 
+}
+
+@media screen and (max-width: 400px) {
+    .logo_footer{
+        width: 30%;
+        max-width: 30%;
+    }
 }
