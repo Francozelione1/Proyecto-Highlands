@@ -196,7 +196,7 @@
 .tituloQueHacemos {
     width: 80%;
     border: none;
-    border-top: 1px solid #149968;
+    border-top: 2px solid #149968;
     opacity: 1;
 }
 
@@ -279,7 +279,7 @@
 }
 
 .tituloTestimonio {
-    font-size: 30px;
+    font-size: 35px;
     color: black;
     position: relative;
     display: flex;
@@ -450,7 +450,8 @@ a:hover {
 
 .fotoTestimonio {
     width: 100%;
-    height: 90%;
+    height: 100%;
+    opacity: 1;
 }
 
 footer {
@@ -528,8 +529,19 @@ footer {
     margin-top: 16px;
 }
 
+.datosPersona{
+    position: absolute;
+    bottom: 0;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
+
 /*    Tablets/Compus chicas    */
-@media screen and (max-width: 1450px) {
+@media screen and (max-width: 1500px) {
     
     .tituloHighlands {
         font-family: 'Dancing Script', cursive;
@@ -563,6 +575,52 @@ footer {
         font-size: 16px;
     }
 
+    .contenedorRubros{
+        padding: 9% 50px;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 50px;
+    }
+
+    .infoRubro{
+        font-size: 16px;
+    }
+
+    .cuadrado{
+        width: 70%;
+        max-width: 70%;
+    }
+
+}
+
+@media screen and (max-width: 1300px) {
+    
+    .cuadrado{
+        width: 70%;
+        max-width: 70%;
+    }
+
+    .simbolo{
+        font-size: 40px;
+    }
+
+    .info{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .card{
+        width: 300px;
+        height: auto;
+    }
+
+    .datosPersona{
+        font-size: 15px;
+    }
+
+    .cardsTestimonio{
+        max-width: 90%;
+    }
 }
 
 /* for mobile */
@@ -627,6 +685,7 @@ footer {
         text-align: center;
         align-items: center;
         margin-top: 50px;
+        padding-left: 0;
     }
 
     .nav-link {

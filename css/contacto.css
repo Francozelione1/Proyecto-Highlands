@@ -66,8 +66,8 @@ a{
 }
 
 .separador{
-    background-color: #008c58 ;
-    color: #008c58;
+    background-color: #149968 ;
+    color: #149968;
     font-size: 20px;
 }
 
@@ -108,6 +108,7 @@ a{
 
 .contenedorInfoContactoTitulo{
     font-size: 40px;
+    max-width: 90%;
 }
 
 .contenedorInfoContactoSeparador{
@@ -132,6 +133,69 @@ a{
     background-size: cover;
     border-radius: 10px;
     color: white;
+}
+
+.mainContacto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedorImgRedes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.contenedorLogoRedes{
+    max-width: 50px;
+}
+
+.contenedorLogoRedes:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.contenedorImgRedesIconos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;  
+}
+
+.imgRedes{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 1400px) {
+
+    .contenedorSeccionContacto{
+        width: 90%;
+        gap: 40px;
+    }
+
+    .contenedorInfoContactoTitulo{
+        font-size: 30px;
+        width: 95%;
+    }
+
+    .contenedorInfoContactoInfo{
+        font-size: 18px;
+        width: 100%;  
+    }
+
+    .contenedorInfoContactoBtn{
+        font-size: 15px;
+    
+    }
+
+    .contenedorLogoRedes{
+        max-width: 40px;
+    }
+
 }
 
 @media screen and (max-width: 990px){
@@ -171,6 +235,10 @@ a{
 
     .contenedorInfoContactoBtn{
         font-size: 15px;
+    }
+
+    .contenedorImgRedes{
+        flex-direction: column;
     }
     
 }

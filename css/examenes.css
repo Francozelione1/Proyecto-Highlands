@@ -108,7 +108,7 @@ main{
     place-items: center;
     grid-template-columns: repeat(4, 0.5fr);
     column-gap: 20px;
-    background-color: #008c58;
+    background-color: #149968;
     padding: 5% 20px;
     margin-top: 50px;
     width: 100%;
@@ -166,7 +166,7 @@ main{
     transform-style: preserve-3d;
     transition: transform 0.5s;
     perspective: 1000px;
-    background-color: #008c58;
+    background-color: #149968;
 }
 
 .card-face {
@@ -277,7 +277,7 @@ button:hover {
 
 .botonRealizarTestNivelIngles{
     padding: 15px 20px;
-    background-color: #008c58;
+    background-color: #149968;
     border-radius: 10px;
     background-size: cover;
     text-align: center;
@@ -321,7 +321,7 @@ main{
     }
     
     .card {
-        width: 50%;
+        width: 45%;
     }
 
     .tituloExamenes{
