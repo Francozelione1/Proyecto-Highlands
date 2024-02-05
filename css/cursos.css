@@ -118,8 +118,12 @@ a{
     justify-content: center;
     text-align: center;
     align-items: center;
-    width: 100%;
+    max-width: 70%;
     padding: 20px 10px;
+}
+
+.contenedorInfoCurso hr{
+    border-top: 2px solid rgb(14, 131, 63);
 }
 
 @media screen and (max-width: 990px) {
