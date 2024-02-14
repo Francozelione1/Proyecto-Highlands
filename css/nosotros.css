@@ -136,7 +136,7 @@ a{
 .infoCierre{
     color: white;
     font-family: cursive;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 400;
     text-align: center;
     width: 100%;
@@ -151,8 +151,7 @@ a{
 }
 .fotoCeo{
     position: relative;
-    max-width: 40%;
-    
+    max-width: 70%;
 }
 
 .lineaTemporal{
@@ -221,11 +220,11 @@ h4{
 
     .fotoCeo{
         position: relative;
-        max-width: 50%;
+        max-width: 70%;
     }
 
     .infoCierre{
-        width: 90%;
+        width: 100%;
         font-size: 20px;
         font-family: roboto-regular;
     }
